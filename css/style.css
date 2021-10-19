@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+.container-fluid{
+    height: 10vh;
+}
+
+.container-fluid a{
+    height: 80%;
+    display: inline-block;
+}
+
+.container-fluid a img{
+    height: 100%;
+}
+
+/* main */
+.bg-main{
+    background-color: aquamarine;
+}
+
+/* footer */
+.footer-vrt-align{
+    line-height: 10vh;
+}
