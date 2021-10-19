@@ -10,8 +10,9 @@
 }
 
 .container-fluid a{
-    height: 80%;
+    height: 100%;
     display: inline-block;
+    padding: 0;
 }
 
 .container-fluid a img{
@@ -19,8 +20,21 @@
 }
 
 /* main */
+#grid-container{
+    width: 500px;
+}
+
 .bg-main{
     background-color: aquamarine;
+}
+
+a:hover{
+    color: white;
+}
+
+.focus{
+    background-color: #6495ed;
+    color: white;
 }
 
 /* footer */
